@@ -337,6 +337,29 @@ h3 { font-size: 1.15rem; }
   border-left-style: dashed;
 }
 
+.project-links {
+  margin-top: 8px !important;
+  font-family: var(--font-mono);
+  font-size: 12px;
+}
+
+.project-links a {
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.project-links a:hover {
+  color: var(--copper);
+  border-bottom-color: var(--copper);
+}
+
+.link-sep {
+  color: var(--muted);
+  margin: 0 6px;
+}
+
 /* ===== Education ===== */
 .edu-row {
   display: flex;
